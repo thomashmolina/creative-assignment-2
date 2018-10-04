@@ -1,0 +1,43 @@
+#title {
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #308181;
+    color: #E1F6F6;
+}
+
+#joke {
+    color: white;
+    font-size: 25px;
+}
+
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #b1e0e0;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #b1e0e0;
+    box-shadow: inset 0px 1px 0px 0px #b1e0e0;
+    background-color: #b1e0e0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #b1e0e0;
+    display: inline-block;
+    cursor: pointer;
+    color: #0d0a0d;
+    font-family: Arial;
+    font-size: 23px;
+    padding: 17px 48px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+}
+
+.myButton:hover {
+    background-color: #b1e0e0;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
